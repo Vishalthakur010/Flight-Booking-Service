@@ -1,5 +1,4 @@
-const { BookingService } = require("./booking-service");
 
 module.exports={
-    BookingService
+    BookingService : require('./booking-service')
 }
